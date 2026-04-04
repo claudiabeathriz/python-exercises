@@ -2,8 +2,8 @@
 # centímetros.
 # Exemplo de saída: “Sua altura em centímetros é x.xx.”
 
-estatura = float(input('Digite sua estatura: '))
+estatura = float(input('Digite sua estatura em centímetros: '))
 
-altura_cm = estatura * 100
+altura_m = estatura * 0.01
 
-print(f"Sua altura em centímetros é {altura_cm:.2f}")
+print(f"Sua altura em metros é {altura_m:.2f}m")
