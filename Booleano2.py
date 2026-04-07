@@ -8,7 +8,7 @@
 numero1 = float(input("Digite o primeiro numero: "))
 numero2 = float(input("Digite o segundo numero: "))
 
-print(f"O primeiro número é igual ao segundo: {numero1 == numero2}")
-print(f"O primeiro número é diferente do segundo: {numero1 != numero2}")
-print(f"O primeiro número é maior que o segundo: {numero1 > numero2}")
-print(f"O primeiro número é menor que o segundo: {numero1 < numero2}")
+print(f"{numero1} é igual a {numero2}: {numero1 == numero2}")
+print(f"{numero1} é diferente de {numero2}: {numero1 != numero2}")
+print(f"{numero1} é maior que {numero2}: {numero1 > numero2}")
+print(f"{numero1} é menor que {numero2}: {numero1 < numero2}")
