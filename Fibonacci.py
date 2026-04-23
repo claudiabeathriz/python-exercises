@@ -18,3 +18,9 @@ b = 1
 for i in range(N):
     print(a, end=" ")
     a, b = b, a + b
+
+for i in range(N):
+    fibo_sum = 0
+    fibo_sum += b
+
+print(fibo_sum)
