@@ -10,17 +10,16 @@
    #     fib.append(fib[i-1] + fib[i-2])
 #print(fib)
 
+
 N = int(input("Digite um número inteiro N: "))
 
 a = 0
 b = 1
+fibo_sum = 0
 
 for i in range(N):
     print(a, end=" ")
+    fibo_sum += a
     a, b = b, a + b
 
-for i in range(N):
-    fibo_sum = 0
-    fibo_sum += b
-
-print(fibo_sum)
+print("\nSoma:", fibo_sum)
