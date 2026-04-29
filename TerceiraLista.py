@@ -14,6 +14,10 @@ for i in range(len(lista_a)):
     lista_c.append(lista_a[i])
     lista_c.append(lista_b[i])
 
+# poderia ser feito separadamente (sem intercalar)
+#for i in range(len(lista_b)):
+ #   lista_c.append(lista_b[i])
+
 lista_c.sort()
 
 print(lista_c)
