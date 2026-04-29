@@ -8,12 +8,12 @@
 # ○ Após 2 giros (resultado final): [40, 50, 10, 20, 30]
 # ○ Imprima a lista após a rotação completa.
 
-lista = []
+lista = [10, 20, 30, 40, 50]
 
-while len(lista) < 5:
-    numero = int(input('Digite o número: '))
+#while len(lista) < 5:
+ #   numero = int(input('Digite o número: '))
 
-    lista.append(numero)
+  #  lista.append(numero)
 
 print(lista)
 
