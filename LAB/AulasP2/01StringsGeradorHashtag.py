@@ -15,4 +15,4 @@ print(frase_nova)
 hashtag = '#' + ''.join(frase_original.title().split())
 print(hashtag)
 # Saída vai ser correta, pois o split() divide a string em uma lista de palavras,
-# e o join() junta as palavras sem espaço, indicando que o separador é '' (nada)
+# e o join() junta as palavras sem espaço, indicado pelo separador ''
