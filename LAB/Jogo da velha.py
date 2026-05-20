@@ -7,7 +7,6 @@ casas_faltando = 0
 jogador = "X" # Crio uma variavel jogador = x, para o x sempre começar a primeira jogada da partida. E após a jogada acontecer, faço uma troca de variveis dentro do loop
 venceu = False # Crio essa variavel para dizer quando o programa termina, ou seja venceu = True
 
-
 while casas_faltando < 9: # Criei um loop while com condição de casas no jogo, que no caso tem 9. Quando contador completar 9, o loop para
     for i in range(len(jogo)): # for para percorrer as linhas
         for j in range(len(jogo[i])): # for para percorrer as casas
