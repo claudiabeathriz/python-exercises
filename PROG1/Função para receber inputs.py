@@ -2,8 +2,8 @@
 
 def obterdados(): 
   nome = input("Informe seu nome: ")
-  idade = int(input("Informe sua idade: ")
-  nivel = int(input("Informe seu nível (1,2,3): ")
+  idade = int(input("Informe sua idade: "))
+  nivel = int(input("Informe seu nível (1,2,3): "))
   return nome,idade,nivel
   
 def cabecalho():
