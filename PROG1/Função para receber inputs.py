@@ -28,11 +28,11 @@ while nivel != 0 and nome != "" and idade != 0:
 
 cabecalho()
 
-print(total_pessoas_nivel1)
-print(total_pessoas_nivel2)
-print(total_pessoas_nivel3)
+print(totalpessoas_nivel1)
+print(totalpessoas_nivel2)
+print(totalpessoas_nivel3)
 
-media = somaidade / (total_pessoa_nivel1 + total_pessoa_nivel2 + total_pessoa_nivel3)
+media = somaidade / (totalpessoas_nivel1 + totalpessoas_nivel2 + totalpessoas_nivel3)
 print(media)
 
 
