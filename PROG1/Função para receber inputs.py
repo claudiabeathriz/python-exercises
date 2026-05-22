@@ -32,8 +32,13 @@ print(totalpessoas_nivel1)
 print(totalpessoas_nivel2)
 print(totalpessoas_nivel3)
 
-media = somaidade / (totalpessoas_nivel1 + totalpessoas_nivel2 + totalpessoas_nivel3)
-print(media)
 
+total_pessoas = totalpessoas_nivel1 + totalpessoas_nivel2 + totalpessoas_nivel3
+if total_pessoas > 0:
+  media = somaidade / (totalpessoas_nivel1 + totalpessoas_nivel2 + totalpessoas_nivel3)
+  print(media)
+else:
+  print("Nenhuma pessoa cadastrada.")
+  
 
   
