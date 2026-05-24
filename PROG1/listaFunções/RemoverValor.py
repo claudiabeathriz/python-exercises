@@ -1,3 +1,6 @@
+# Rescreva o programa abaixo que exclui o primeiro elemento da lista com
+# valor especificado, mas utilizando uma função.
+
 def remover_valor(lista, valor):
     removeu = False
     temp = []
