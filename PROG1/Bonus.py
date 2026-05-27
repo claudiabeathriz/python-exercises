@@ -11,7 +11,7 @@
 # ignorado.
 # ● Se nenhuma das condições do if ou elif for verdadeira (ex: meta de 40%), o bloco else é
 # executado.
-# ● Por fim, o valor do bônus é calculado e uma mensagem apropriada é exibida.
+# ● Por fim, o valor do bônus é calculado e uma mensagem apropriada é exibida
 
 salario = float(input("Digite seu salário: "))
 meta_atingida = float(input("Digite a % da meta atingida: "))
