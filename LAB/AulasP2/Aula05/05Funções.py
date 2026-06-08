@@ -12,7 +12,7 @@
 # Uma variável global é definida fora de uma função => Apesar de ser possível
 # usar variáveis globais dentro de funções, esta é considerada uma péssima prática de programação.
 
-def encontra_maior( x, y ): # x e y são os parâmetros de entrada
+def encontra_maior(x, y ): # x e y são os parâmetros de entrada
     m = x # variável local - uma variável local a uma função existe apenas dentro dela
     if y > x:
         m = y #variável local
