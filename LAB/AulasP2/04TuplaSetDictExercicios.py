@@ -95,5 +95,6 @@ notas = {"Claudia": [10.0, 10.0, 10.0],
          "Ana": [6.0, 9.0, 7.5],
          "Bia": [5.0, 10.0, 8.5]}
 
-for nome, nota in notas.items():
-    print(f"Aluno: {nome};", f"Nota: {nota}")
+for nome in notas.keys():
+    media = sum(notas[nome])/3
+    print(f"Aluno: {nome};", f"Média aritmética: {media}")
